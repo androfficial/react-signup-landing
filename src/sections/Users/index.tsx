@@ -31,7 +31,6 @@ export const Users = () => {
 
   useEffect(() => {
     if (isUserRegistered) {
-      // В случае если пользователь был зарегистрирован обновить список юзеров
       dispatch(fetchUsers({ page: 1, count: 6, update: true }));
     }
   }, [dispatch, isUserRegistered]);

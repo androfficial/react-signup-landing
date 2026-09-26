@@ -2,10 +2,8 @@
 /* stylelint-disable no-invalid-position-at-import-rule */
 @use 'sass:math';
 
-// === <ПЕРЕМЕННЫЕ> ===================================================
 @import 'blocks/variables';
 
-// === <ОБНУЛЕНИЕ> ====================================================
 @import 'blocks/null';
 
 body {
@@ -22,7 +20,6 @@ body {
   }
 }
 
-//<ОБОЛОЧКА>============================================================
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -30,7 +27,6 @@ body {
   height: 100%;
 }
 
-// === <КОНТЕЙНЕР> =====================================================
 .container {
   max-width: 1290px;
   margin: 0 auto;
@@ -47,10 +43,8 @@ body {
   }
 }
 
-// <ПОДКЛЮЧЕНИЕ ГОТОВЫХ КЛАССОВ>========================================
 @import 'blocks/ui';
 
-// === <ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ> =================
 @import 'blocks/header';
 @import 'sections/intro';
 @import 'sections/users';
@@ -58,7 +52,6 @@ body {
 @import 'blocks/modal';
 @import 'blocks/preloader';
 
-// === <ОСНОВНОЙ БЛОК> =================================================
 .page {
   flex: 1 1 auto;
   padding-top: $heightHeaderInner;

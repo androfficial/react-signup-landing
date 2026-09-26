@@ -9,7 +9,7 @@ export const Header = () => {
         <div className='header__inner'>
           <div className='header__logo logo'>
             <Link to='intro' className='logo__link' offset={-60} smooth>
-              <img src={Logo} alt='Логотип' />
+              <img src={Logo} alt='Logo' />
             </Link>
           </div>
           <div className='header__menu menu'>

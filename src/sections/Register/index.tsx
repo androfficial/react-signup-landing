@@ -193,7 +193,6 @@ export const Register = () => {
                 fullWidth
               />
             </div>
-            {/* Если форма не отправляется сейчас и возникла ошибка регистрации пользователя то отобразить компонент ошибки */}
             {!isSubmitting && !formErrors.success && (
               <NetworkFormErrors formErrors={formErrors} />
             )}
