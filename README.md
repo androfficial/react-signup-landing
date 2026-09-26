@@ -2,7 +2,7 @@
 
 Landing page that lists users from the assignment's REST API and lets a visitor register through a validated sign-up form with a photo upload. Built in January 2022 as a take-home assignment.
 
-**Live demo:** [test-task-layout.vercel.app](https://test-task-layout.vercel.app)
+**Live demo:** [react-signup-landing.vercel.app](https://react-signup-landing.vercel.app)
 
 ## Features
 
